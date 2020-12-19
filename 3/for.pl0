@@ -1,0 +1,10 @@
+var i,a;
+begin
+ read(a); 
+ for i:=1 to 10 do
+ begin
+   write(i);
+   write(i*3);
+ end;
+end.
+

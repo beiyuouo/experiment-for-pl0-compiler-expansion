@@ -1,0 +1,15 @@
+const n=3;
+var a,b,c,t;
+begin
+    read(a); read(b); read(c);
+    if a<b then; begin
+        t:=a; a:=b; b:=t;
+    end;
+    if a<c then; begin
+        t:=a; a:=c; c:=t;
+    end;
+    if b<c then; begin 
+        t:=b; b:=c; c:=t;
+    end;
+    write(a); write(b); write(c);
+end.

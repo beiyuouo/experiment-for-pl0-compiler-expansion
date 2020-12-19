@@ -1,0 +1,66 @@
+Input pl/0 file?   Y
+0 var a,b,c,d;
+
+1 begin
+
+2    read(a);
+
+4    read(b);
+
+6    read(c);
+
+8    if a<b then
+
+11       begin
+
+12         d:=a;
+
+14         a:=b;
+
+16         b:=d;
+
+18       end;
+
+18    if c>a then  
+
+21      begin 
+
+22 	write(c);
+
+25 	write(a);
+
+28 	write(b);
+
+31      end
+
+31    else
+
+32      begin
+
+32         if b>c then 
+
+35      	begin 
+
+36 	  write(a);
+
+39 	  write(b);
+
+42 	  write(c);
+
+45      	end;
+
+45         if b<=c then 
+
+48      	begin 
+
+49 	  write(a);
+
+52 	  write(c);
+
+55 	  write(b);
+
+58 	end;
+
+58     end;
+
+58 end. 

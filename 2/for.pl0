@@ -1,0 +1,11 @@
+var i,a;
+begin
+ read(a); 
+ for i=1 to 10
+   begin
+     write(i);
+     write(i*a);
+   end;
+
+end. 
+

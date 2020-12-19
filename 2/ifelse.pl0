@@ -1,0 +1,33 @@
+var a,b,c,d;
+begin
+   read(a);
+   read(b);
+   read(c);
+   if a<b then
+      begin
+        d:=a;
+        a:=b;
+        b:=d;
+      end;
+   if c>a then  
+     begin 
+	write(c);
+	write(a);
+	write(b);
+     end
+   else
+     begin
+        if b>c then 
+     	begin 
+	  write(a);
+	  write(b);
+	  write(c);
+     	end;
+        if b<=c then 
+     	begin 
+	  write(a);
+	  write(c);
+	  write(b);
+	end;
+    end;
+end. 
